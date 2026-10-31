@@ -1,0 +1,16 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse"><stop stop-color="#10101D"/><stop offset=".55" stop-color="#17132A"/><stop offset="1" stop-color="#101827"/></linearGradient>
+ <linearGradient id="line" x1="80" y1="30" x2="1080" y2="280" gradientUnits="userSpaceOnUse"><stop stop-color="#A78BFA"/><stop offset="1" stop-color="#60A5FA"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#8B5CF6" stop-opacity=".32"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+<circle cx="970" cy="60" r="260" fill="url(#glow)"/>
+<path d="M0 240C220 180 320 310 560 220C790 135 910 175 1200 70" stroke="url(#line)" stroke-opacity=".32" stroke-width="2"/>
+<path d="M0 265C230 205 365 320 600 245C850 165 1000 205 1200 125" stroke="url(#line)" stroke-opacity=".18" stroke-width="1.5"/>
+<g fill="#A78BFA" opacity=".75"><circle cx="1020" cy="90" r="3"/><circle cx="1080" cy="145" r="2"/><circle cx="930" cy="205" r="2.5"/><circle cx="1120" cy="55" r="2"/></g>
+<text x="82" y="112" fill="#A78BFA" font-family="monospace" font-size="17" letter-spacing="4">HELLO, WORLD</text>
+<text x="78" y="177" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">I'm Razvan.</text>
+<text x="82" y="218" fill="#B8B5C8" font-family="Arial, Helvetica, sans-serif" font-size="21">Building things with code, curiosity &amp; a little persistence.</text>
+<rect x="82" y="244" width="120" height="3" rx="1.5" fill="url(#line)"/>
+</svg>
