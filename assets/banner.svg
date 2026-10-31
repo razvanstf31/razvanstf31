@@ -1,18 +1,16 @@
-<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
 <defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse"><stop stop-color="#050816"/><stop offset=".52" stop-color="#0A1025"/><stop offset="1" stop-color="#10091F"/></linearGradient>
- <linearGradient id="neon" x1="70" y1="40" x2="1110" y2="300" gradientUnits="userSpaceOnUse"><stop stop-color="#22D3EE"/><stop offset=".48" stop-color="#818CF8"/><stop offset="1" stop-color="#C084FC"/></linearGradient>
- <radialGradient id="aura" cx="0" cy="0" r="1" gradientTransform="matrix(0 250 -430 0 930 100)" gradientUnits="userSpaceOnUse"><stop stop-color="#6D28D9" stop-opacity=".3"/><stop offset="1" stop-color="#6D28D9" stop-opacity="0"/></radialGradient>
- <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" stroke="#8B9BBF" stroke-opacity=".09"/></pattern>
- <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse"><stop stop-color="#10101D"/><stop offset=".55" stop-color="#17132A"/><stop offset="1" stop-color="#101827"/></linearGradient>
+ <linearGradient id="line" x1="80" y1="30" x2="1080" y2="280" gradientUnits="userSpaceOnUse"><stop stop-color="#A78BFA"/><stop offset="1" stop-color="#60A5FA"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#8B5CF6" stop-opacity=".32"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
 </defs>
-<rect width="1200" height="340" rx="22" fill="url(#bg)"/>
-<rect width="1200" height="340" rx="22" fill="url(#grid)"/>
-<rect width="1200" height="340" rx="22" fill="url(#aura)"/>
-<path d="M0 270L240 220L420 250L650 160L820 190L1200 72" stroke="url(#neon)" stroke-opacity=".25" stroke-width="1.5"/>
-<path d="M0 292L260 244L430 270L670 180L850 210L1200 102" stroke="url(#neon)" stroke-opacity=".12"/>
-<g stroke="url(#neon)" stroke-width="1.5" opacity=".8"><path d="M36 28H180M36 28V72"/><path d="M1164 312H1020M1164 312V268"/></g>
-<g fill="#67E8F9" filter="url(#glow)"><circle cx="855" cy="76" r="2.5"/><circle cx="1010" cy="145" r="2"/><circle cx="748" cy="238" r="2"/><circle cx="1090" cy="62" r="2"/></g>
-<g font-family="monospace"><text x="78" y="82" fill="#67E8F9" font-size="13" letter-spacing="5">SYSTEM ONLINE // DEVELOPER PROFILE</text><text x="75" y="170" fill="#F8FAFC" font-family="Arial,Helvetica,sans-serif" font-size="70" font-weight="700" letter-spacing="-2">RAZVAN<span fill="#67E8F9">_</span></text><text x="80" y="211" fill="#A5B4FC" font-size="18" letter-spacing="2">SOFTWARE DEVELOPER IN PROGRESS</text><text x="80" y="260" fill="#94A3B8" font-size="14">BUILDING • EXPERIMENTING • OPTIMIZING</text><text x="1005" y="286" fill="#64748B" font-size="10" text-anchor="end" letter-spacing="2">EST. 2024 / CONTINUOUSLY EVOLVING</text></g>
-<path d="M80 285H330" stroke="url(#neon)" stroke-width="2" filter="url(#glow)"/>
+<rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+<circle cx="970" cy="60" r="260" fill="url(#glow)"/>
+<path d="M0 240C220 180 320 310 560 220C790 135 910 175 1200 70" stroke="url(#line)" stroke-opacity=".32" stroke-width="2"/>
+<path d="M0 265C230 205 365 320 600 245C850 165 1000 205 1200 125" stroke="url(#line)" stroke-opacity=".18" stroke-width="1.5"/>
+<g fill="#A78BFA" opacity=".75"><circle cx="1020" cy="90" r="3"/><circle cx="1080" cy="145" r="2"/><circle cx="930" cy="205" r="2.5"/><circle cx="1120" cy="55" r="2"/></g>
+<text x="82" y="112" fill="#A78BFA" font-family="monospace" font-size="17" letter-spacing="4">HELLO, WORLD</text>
+<text x="78" y="177" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">I'm Razvan.</text>
+<text x="82" y="218" fill="#B8B5C8" font-family="Arial, Helvetica, sans-serif" font-size="21">Building things with code, curiosity &amp; a little persistence.</text>
+<rect x="82" y="244" width="120" height="3" rx="1.5" fill="url(#line)"/>
 </svg>
