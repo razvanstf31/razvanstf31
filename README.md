@@ -1,61 +1,60 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="Razvan — Developer">
+<img src="./assets/banner.svg" alt="Razvan Stefaniu — Developer" width="100%"/>
 
-<br>
-
-# Hey, I'm Razvan 👋
-
-**Computer Science student · Developer · Problem solver**
-
-I enjoy building useful things, exploring how software works, and turning ideas into projects.
-
-[![GitHub](https://img.shields.io/badge/GitHub-razvanstf31-181717?style=for-the-badge&logo=github)](https://github.com/razvanstf31)
+<a href="https://github.com/razvanstf31"><img src="https://img.shields.io/badge/GitHub-razvanstf31-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
+<img src="https://komarev.com/ghpvc/?username=razvanstf31&label=Profile%20views&color=8b7bff&style=for-the-badge" alt="Profile views"/>
 
 </div>
 
----
-
-### `whoami`
-
-- 🎓 Computer Science student at **University of Bucharest — Faculty of Mathematics and Computer Science**
-- 💻 Interested in software development, algorithms, and building polished web applications
-- 🌱 Currently developing **Wardrobe** and improving my problem-solving skills
-- ⚡ I like understanding how things work under the hood — not just making them work
-
-### `currently_building`
-
-<a href="https://github.com/razvanstf31/wardrobe">
-  <img src="assets/wardrobe-card.svg" width="100%" alt="Wardrobe project card">
-</a>
-
-### `tech_stack`
+<br/>
 
 <div align="center">
-
-<img src="assets/tech-stack.svg" width="100%" alt="Technologies">
-
+  <img src="./assets/whoami.svg" alt="whoami terminal" width="100%"/>
 </div>
 
-### `github_activity`
+<br/>
+
+## ✨ Featured Projects
 
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=razvanstf31&show_icons=true&hide_border=true&bg_color=0d1117&title_color=b69cff&icon_color=8b7bff&text_color=c9d1d9&ring_color=8b7bff" height="165" alt="GitHub stats">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=razvanstf31&layout=compact&hide_border=true&bg_color=0d1117&title_color=b69cff&text_color=c9d1d9" height="165" alt="Top languages">
-
-<br><br>
-
-<img src="https://raw.githubusercontent.com/razvanstf31/razvanstf31/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution snake animation">
-
+  <!-- TODO: înlocuiește cu link-ul tău real de Vercel -->
+  <a href="https://YOUR-WARDROBE-APP.vercel.app" target="_blank">
+    <img src="./assets/project-wardrobe.svg" alt="Wardrobe — live demo on Vercel" width="100%"/>
+  </a>
 </div>
 
----
+<br/>
+
+## 🛠️ Tech Stack
 
 <div align="center">
-
-*Always learning. Always building.*
-
-<img src="assets/footer.svg" width="100%" alt="Decorative footer">
-
+  <img src="./assets/tech-stack.svg" alt="Tech stack" width="100%"/>
 </div>
+
+<br/>
+
+## 📊 GitHub Activity
+
+<div align="center">
+  <a href="https://github.com/razvanstf31">
+    <img height="180" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=razvanstf31&show_icons=true&hide_border=true&bg_color=0d1117&title_color=b69cff&icon_color=5eead4&text_color=c9d1d9&ring_color=8b7bff"/>
+  </a>
+  <a href="https://github.com/razvanstf31">
+    <img height="180" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=razvanstf31&layout=compact&hide_border=true&bg_color=0d1117&title_color=b69cff&text_color=c9d1d9"/>
+  </a>
+</div>
+
+<br/>
+
+## 🐍 Contribution Snake
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/razvanstf31/razvanstf31/output/github-contribution-grid-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/razvanstf31/razvanstf31/output/github-contribution-grid-snake.svg"/>
+    <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/razvanstf31/razvanstf31/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+  </picture>
+</div>
+
+<img src="./assets/footer.svg" alt="footer" width="100%"/>

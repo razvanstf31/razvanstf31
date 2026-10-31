@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b7bff"/><stop offset="1" stop-color="#5eead4"/>
+    </linearGradient>
+    <linearGradient id="bgc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#161b22"/><stop offset="1" stop-color="#1b1f3a"/>
+    </linearGradient>
+    <style>
+      .t { font-family: 'Segoe UI', Arial, sans-serif; }
+      .tag { font-family: 'Courier New', monospace; font-size: 13px; fill: #5eead4; }
+      .glow { animation: glow 3s ease-in-out infinite; }
+      @keyframes glow { 0%,100% { stroke-opacity: .35; } 50% { stroke-opacity: 1; } }
+      .slide { opacity: 0; animation: slide .8s ease-out forwards; }
+      @keyframes slide { from { opacity: 0; transform: translateX(-24px); } to { opacity: 1; transform: translateX(0); } }
+    </style>
+  </defs>
+  <rect x="2" y="2" width="896" height="216" rx="16" fill="url(#bgc)" stroke="url(#g)" stroke-width="2" class="glow"/>
+
+  <!-- hanger icon -->
+  <g transform="translate(70 60)" stroke="url(#g)" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 10 a10 10 0 1 1 10 10 v10"/>
+    <path d="M50 30 L96 62 Q104 70 94 70 H6 Q-4 70 4 62 Z">
+      <animate attributeName="stroke-dasharray" values="0 400;400 0" dur="2s" fill="freeze"/>
+    </path>
+    <animateTransform attributeName="transform" type="rotate" values="-4 50 10;4 50 10;-4 50 10" dur="4s" repeatCount="indefinite" additive="sum"/>
+  </g>
+
+  <g class="t">
+    <text class="slide" style="animation-delay:.2s" x="230" y="70" font-size="32" font-weight="800" fill="#ffffff">Wardrobe</text>
+    <text class="slide" style="animation-delay:.4s" x="230" y="102" font-size="17" fill="#c9d1d9">A polished web app for organizing your clothes and outfits.</text>
+    <text class="slide tag" style="animation-delay:.6s" x="230" y="135">React · Next.js · Supabase · Tailwind</text>
+  </g>
+
+  <!-- button -->
+  <g class="slide" style="animation-delay:.8s">
+    <rect x="230" y="158" width="170" height="38" rx="19" fill="url(#g)"/>
+    <text class="t" x="315" y="182" text-anchor="middle" font-size="15" font-weight="700" fill="#0d1117">▶ Live demo</text>
+  </g>
+  <g class="slide" style="animation-delay:1s">
+    <rect x="415" y="158" width="150" height="38" rx="19" fill="none" stroke="#8b949e"/>
+    <text class="t" x="490" y="182" text-anchor="middle" font-size="15" font-weight="600" fill="#e6edf3">&lt;/&gt; Source</text>
+  </g>
+</svg>

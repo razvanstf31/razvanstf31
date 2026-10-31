@@ -1,16 +1,52 @@
-<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
-<defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse"><stop stop-color="#10101D"/><stop offset=".55" stop-color="#17132A"/><stop offset="1" stop-color="#101827"/></linearGradient>
- <linearGradient id="line" x1="80" y1="30" x2="1080" y2="280" gradientUnits="userSpaceOnUse"><stop stop-color="#A78BFA"/><stop offset="1" stop-color="#60A5FA"/></linearGradient>
- <radialGradient id="glow"><stop stop-color="#8B5CF6" stop-opacity=".32"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
-</defs>
-<rect width="1200" height="300" rx="24" fill="url(#bg)"/>
-<circle cx="970" cy="60" r="260" fill="url(#glow)"/>
-<path d="M0 240C220 180 320 310 560 220C790 135 910 175 1200 70" stroke="url(#line)" stroke-opacity=".32" stroke-width="2"/>
-<path d="M0 265C230 205 365 320 600 245C850 165 1000 205 1200 125" stroke="url(#line)" stroke-opacity=".18" stroke-width="1.5"/>
-<g fill="#A78BFA" opacity=".75"><circle cx="1020" cy="90" r="3"/><circle cx="1080" cy="145" r="2"/><circle cx="930" cy="205" r="2.5"/><circle cx="1120" cy="55" r="2"/></g>
-<text x="82" y="112" fill="#A78BFA" font-family="monospace" font-size="17" letter-spacing="4">HELLO, WORLD</text>
-<text x="78" y="177" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">I'm Razvan.</text>
-<text x="82" y="218" fill="#B8B5C8" font-family="Arial, Helvetica, sans-serif" font-size="21">Building things with code, curiosity &amp; a little persistence.</text>
-<rect x="82" y="244" width="120" height="3" rx="1.5" fill="url(#line)"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#161b33"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b69cff"><animate attributeName="stop-color" values="#b69cff;#5eead4;#f0abfc;#b69cff" dur="8s" repeatCount="indefinite"/></stop>
+      <stop offset="1" stop-color="#5eead4"><animate attributeName="stop-color" values="#5eead4;#f0abfc;#b69cff;#5eead4" dur="8s" repeatCount="indefinite"/></stop>
+    </linearGradient>
+    <linearGradient id="wave1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b7bff" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#5eead4" stop-opacity=".35"/>
+    </linearGradient>
+    <clipPath id="round"><rect width="1000" height="260" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#round)">
+    <rect width="1000" height="260" fill="url(#bg)"/>
+    <!-- floating orbs -->
+    <circle cx="140" cy="60" r="70" fill="#8b7bff" opacity=".12">
+      <animate attributeName="cy" values="60;90;60" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="860" cy="190" r="90" fill="#5eead4" opacity=".10">
+      <animate attributeName="cy" values="190;150;190" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <!-- waves -->
+    <path fill="url(#wave1)" d="M0 200 Q 125 170 250 200 T 500 200 T 750 200 T 1000 200 V260 H0Z">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-500 0" dur="12s" repeatCount="indefinite"/>
+    </path>
+    <path fill="url(#wave1)" opacity=".6" d="M0 215 Q 125 245 250 215 T 500 215 T 750 215 T 1000 215 T 1250 215 T 1500 215 V260 H0Z">
+      <animateTransform attributeName="transform" type="translate" values="-500 0;0 0" dur="9s" repeatCount="indefinite"/>
+    </path>
+    <!-- sparkles -->
+    <g fill="#fff">
+      <circle cx="300" cy="40" r="1.6"><animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite"/></circle>
+      <circle cx="700" cy="55" r="1.4"><animate attributeName="opacity" values="0;1;0" dur="4s" begin="1s" repeatCount="indefinite"/></circle>
+      <circle cx="520" cy="30" r="1.8"><animate attributeName="opacity" values="0;1;0" dur="3.5s" begin=".5s" repeatCount="indefinite"/></circle>
+      <circle cx="900" cy="80" r="1.5"><animate attributeName="opacity" values="0;1;0" dur="5s" begin="2s" repeatCount="indefinite"/></circle>
+      <circle cx="80" cy="150" r="1.5"><animate attributeName="opacity" values="0;1;0" dur="4.5s" begin="1.5s" repeatCount="indefinite"/></circle>
+    </g>
+    <!-- title -->
+    <text x="500" y="120" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="58" font-weight="800" fill="url(#txt)">
+      Razvan Stefaniu
+      <animate attributeName="opacity" values="0;1" dur="1.2s" fill="freeze"/>
+    </text>
+    <text x="500" y="165" text-anchor="middle" font-family="'Courier New', monospace" font-size="22" fill="#c9d1d9">
+      &lt;Developer /&gt; · CS Student · Problem Solver
+      <animate attributeName="opacity" values="0;1" dur="1.5s" begin=".8s" fill="freeze"/>
+    </text>
+  </g>
+  <rect x=".5" y=".5" width="999" height="259" rx="18" fill="none" stroke="#8b7bff" stroke-opacity=".35"/>
 </svg>
