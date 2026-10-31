@@ -1,0 +1,13 @@
+<svg width="1000" height="140" viewBox="0 0 1000 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="edge" x1="0" y1="0" x2="1000" y2="140"><stop stop-color="#22D3EE"/><stop offset=".55" stop-color="#818CF8"/><stop offset="1" stop-color="#C084FC"/></linearGradient></defs>
+<rect x="1" y="1" width="998" height="138" rx="16" fill="#080D1D" stroke="#273653"/>
+<text x="28" y="27" fill="#67E8F9" font-family="monospace" font-size="10" letter-spacing="3">TOOLS &amp; TECHNOLOGIES // CURRENT LOADOUT</text>
+<g font-family="monospace" font-size="15" text-anchor="middle">
+<g><rect x="24" y="48" width="145" height="62" rx="8" fill="#101B31" stroke="#31516B"/><text x="96" y="85" fill="#67E8F9">PYTHON</text></g>
+<g><rect x="185" y="48" width="145" height="62" rx="8" fill="#101B31" stroke="#31516B"/><text x="257" y="85" fill="#93C5FD">C++</text></g>
+<g><rect x="346" y="48" width="145" height="62" rx="8" fill="#101B31" stroke="#514078"/><text x="418" y="85" fill="#C4B5FD">TYPESCRIPT</text></g>
+<g><rect x="507" y="48" width="145" height="62" rx="8" fill="#101B31" stroke="#31516B"/><text x="579" y="85" fill="#93C5FD">JAVASCRIPT</text></g>
+<g><rect x="668" y="48" width="145" height="62" rx="8" fill="#101B31" stroke="#514078"/><text x="740" y="85" fill="#C4B5FD">REACT</text></g>
+<g><rect x="829" y="48" width="145" height="62" rx="8" fill="#101B31" stroke="#31516B"/><text x="901" y="85" fill="#67E8F9">NEXT.JS</text></g>
+</g><path d="M24 126H976" stroke="url(#edge)" stroke-opacity=".6"/>
+</svg>
