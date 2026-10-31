@@ -1,74 +1,52 @@
 <div align="center">
 
-  <!-- Header Typing SVG Modern -->
-  <a href="https://github.com/razvanstf31">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1000&color=E11D48&center=true&vCenter=true&width=700&lines=Hey+there!+I'm+%C8%98tefaniu+R%C4%83zvan+👋;CS+Student+%40+UniBuc+facultatea+de+Mate-Info+🎓;Full-Stack+Developer+%26+UI%2FUX+Enthusiast+✨;Building+smart%2C+stylish+web+apps+🚀" alt="Typing SVG" />
-  </a>
+<img src="assets/banner.svg" width="100%" alt="Razvan — Developer">
 
-  <p align="center">
-    <a href="https://atelier-wardrobe.vercel.app"><img src="https://img.shields.io/badge/Live_App-Atelier_Wardrobe-F43F5E?style=for-the-badge&logo=vercel&logoColor=white" alt="Atelier Wardrobe" /></a>
-    <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  </p>
+<br>
+
+# Hey, I'm Razvan 👋
+
+**Computer Science student · Developer · Problem solver**
+
+I enjoy building useful things, exploring how software works, and turning ideas into projects.
+
+[![GitHub](https://img.shields.io/badge/GitHub-razvanstf31-181717?style=for-the-badge&logo=github)](https://github.com/razvanstf31)
 
 </div>
 
 ---
 
-### 🚀 Featured Project
+### `whoami`
 
-<div align="center">
+- 🎓 Computer Science student at **University of Bucharest — Faculty of Mathematics and Computer Science**
+- 💻 Interested in software development, algorithms, and building polished web applications
+- 🌱 Currently developing **Wardrobe** and improving my problem-solving skills
+- ⚡ I like understanding how things work under the hood — not just making them work
 
-<a href="https://atelier-wardrobe.vercel.app" target="_blank">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=auto&customColorList=12,24,35&height=140&text=Atelier%20Wardrobe%20%E2%9C%A8&fontSize=38&fontColor=ffffff&animation=twinkling" width="100%" alt="Atelier Wardrobe Banner" />
+### `currently_building`
+
+<a href="https://github.com/razvanstf31/wardrobe">
+  <img src="assets/wardrobe-card.svg" width="100%" alt="Wardrobe project card">
 </a>
 
-#### 🎀 **Garderobă Digitală Inteligentă & Asistent Personal AI**
-An automated personal wardrobe platform with AI background removal, real-time weather recommendations, outfit tracking, and a smart stylist chatbot.
-
-[**🌐 Deschide Live Demo pe Vercel**](https://atelier-wardrobe.vercel.app) • [**⚡ Specificații Tehnice**](#-tech-stack--tools)
-
-</div>
-
----
-
-### 🐍 GitHub Contribution Snake
+### `tech_stack`
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/razvanstf31/razvanstf31/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/razvanstf31/razvanstf31/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/razvanstf31/razvanstf31/output/github-contribution-grid-snake.svg" width="100%">
-</picture>
+<img src="assets/tech-stack.svg" width="100%" alt="Technologies">
 
 </div>
 
----
-
-### 🛠️ Tech Stack & Skills
+### `github_activity`
 
 <div align="center">
 
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,prisma,postgres,ubuntu,git,vscode,figma,vercel&perline=6" alt="My Tech Stack" />
-</a>
+<img src="https://github-readme-stats.vercel.app/api?username=razvanstf31&show_icons=true&hide_border=true&bg_color=0d1117&title_color=b69cff&icon_color=8b7bff&text_color=c9d1d9&ring_color=8b7bff" height="165" alt="GitHub stats">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=razvanstf31&layout=compact&hide_border=true&bg_color=0d1117&title_color=b69cff&text_color=c9d1d9" height="165" alt="Top languages">
 
-</div>
+<br><br>
 
----
-
-### 📊 GitHub Analytics
-
-<div align="center">
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=razvanstf31&show_icons=true&theme=dark&hide_border=true&count_private=true" width="48%" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=razvanstf31&theme=dark&hide_border=true" width="48%" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=razvanstf31&layout=compact&theme=dark&hide_border=true&langs_count=6" width="60%" alt="Top Languages" />
-</p>
+<img src="https://raw.githubusercontent.com/razvanstf31/razvanstf31/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution snake animation">
 
 </div>
 
@@ -76,6 +54,8 @@ An automated personal wardrobe platform with AI background removal, real-time we
 
 <div align="center">
 
-  <sub>Crafted with ❤️ by Ștefaniu Răzvan</sub>
+*Always learning. Always building.*
+
+<img src="assets/footer.svg" width="100%" alt="Decorative footer">
 
 </div>
