@@ -18,9 +18,12 @@
 ## ✨ Featured Projects
 
 <div align="center">
-  <!-- TODO: înlocuiește cu link-ul tău real de Vercel -->
-  <a href="https://YOUR-WARDROBE-APP.vercel.app" target="_blank">
-    <img src="./assets/project-wardrobe.svg" alt="Wardrobe — live demo on Vercel" width="100%"/>
+  <a href="https://webvektor.ro" target="_blank">
+    <img src="./assets/project-webvektor.svg" alt="Web Vektor — webvektor.ro" width="100%"/>
+  </a>
+  <br/><br/>
+  <a href="https://wardrobe-src.vercel.app" target="_blank">
+    <img src="./assets/project-ellise.svg" alt="Ellise — live demo on Vercel" width="100%"/>
   </a>
 </div>
 

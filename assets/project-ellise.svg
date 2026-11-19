@@ -27,7 +27,7 @@
   </g>
 
   <g class="t">
-    <text class="slide" style="animation-delay:.2s" x="230" y="70" font-size="32" font-weight="800" fill="#ffffff">Wardrobe</text>
+    <text class="slide" style="animation-delay:.2s" x="230" y="70" font-size="32" font-weight="800" fill="#ffffff">Ellise</text>
     <text class="slide" style="animation-delay:.4s" x="230" y="102" font-size="17" fill="#c9d1d9">A polished web app for organizing your clothes and outfits.</text>
     <text class="slide tag" style="animation-delay:.6s" x="230" y="135">React · Next.js · Supabase · Tailwind</text>
   </g>
