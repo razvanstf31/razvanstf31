@@ -12,7 +12,7 @@
     <animateTransform attributeName="transform" type="translate" values="-500 0;0 0" dur="14s" repeatCount="indefinite"/>
   </path>
   <text x="500" y="60" text-anchor="middle" font-family="'Courier New', monospace" font-size="18" fill="#c9d1d9">
-    Always learning. Always building.
+    Waiting for my 5 hours limit to reset
     <animate attributeName="opacity" values="0.5;1;0.5" dur="4s" repeatCount="indefinite"/>
   </text>
 </svg>
